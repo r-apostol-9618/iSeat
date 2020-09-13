@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#ffd4e8">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="532dp"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <TextView
+            android:id="@+id/txtMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+
+            android:text="Menu"
+            android:textColor="#32b7de"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="166dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <ToggleButton
+            android:id="@+id/tgb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="68dp"
+            android:background="#FFFF6666"
+            android:text="ToggleButton"
+            android:textColor="#FFFFFF"
+            tools:layout_editor_absoluteX="141dp"
+            tools:layout_editor_absoluteY="108dp" />
+
+        <Button
+            android:id="@+id/btnSMS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/tgb"
+            android:layout_marginStart="28dp"
+            android:background="#FFFF6666"
+            android:onClick="btnSms_click"
+            android:text="SMS"
+            android:textColor="#FFFFFF"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btnBuzzer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignEnd="@+id/floatingActionButton"
+            android:layout_alignTop="@+id/btnSMS"
+            android:background="#FFFF6666"
+            android:onClick="btnMessaggioPeso_click"
+            android:text="Allarme"
+            android:textColor="#FFFFFF"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imageViewCry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_centerInParent="true"
+            android:src="@drawable/baby"
+            tools:layout_editor_absoluteX="64dp"
+            tools:layout_editor_absoluteY="106dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="27dp"
+            android:clickable="true"
+            android:onClick="btnRTelefoni_click"
+            app:srcCompat="@android:drawable/ic_menu_call" />
+
+        <TextView
+            android:id="@+id/txtViewPeso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="82dp"
+            android:text="Peso"
+            android:textColor="#32b7de"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
