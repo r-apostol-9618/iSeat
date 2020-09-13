@@ -1,6 +1,6 @@
 # iSeat 👶
 
-iSeat is an intelligent anti-abandonment booster seat, is one of my first application I ever made, started in 2017, with this application I started to have a soft spot for with mobile programming, and even if this application is not perfect (it remains an alpha project) I learned a lot and it made me live some amazing experiences.
+iSeat is an intelligent anti-abandonment booster seat, is one of my first application I ever made, started in 2017, with this application I started to have a soft spot for mobile programming, and even if this application is not perfect (it remains an alpha project) I learned a lot and it made me live some amazing experiences.
 
 ### Project idea
 
@@ -21,6 +21,10 @@ When the app start the user need to enter the Mac address of the bluetooth modul
 In fact if the parent were to move away from the car the bluetooth signal would drop and at this point the app will verify through the last message received from the arduino, the presence of the child and if so it would start the alarm systems and send the emergency message.
 
 <img src="iSeat3.jpg" width="300" />
+
+### Fun fact
+
+I would like to thanks here my math teacher of my high school who was amazed by this project and asked me to partecipate with her robotic's team at the **Maker Faire Rome 2018** edition
 
 ### :books: Technologies I used 
 - Bluetooth adapter 
