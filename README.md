@@ -22,7 +22,7 @@ In fact if the parent were to move away from the car the bluetooth signal would 
 
 <img src="iSeat3.jpg" width="300" />
 
-### Fun fact
+### Fun fact :bug:
 
 I would like to thanks here my math teacher of my high school who was amazed by this project and asked me to partecipate with her robotic's team at the **Maker Faire Rome 2018** edition
 
