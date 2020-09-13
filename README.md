@@ -10,17 +10,17 @@ By following the news, I asked myself how important and fundamental is the creat
 
 For the components I used an Arduino mega, a load cell, bluetooth model and a power supply.  I asked a friend of mine to help me with the project and he made the project box (with plexiglass and wood)
 
-<img src="iSeat1.png" width="300" />
+<img src="iSeat1.jpg" width="300" />
 
 ### User Journey
 
 When the app start the user need to enter the Mac address of the bluetooth module to be able to connect with the Arduino. If is the first time that the user open the app, he will be required to enter a number by pressing the appropriate button, this number will be saved in an sqlite database. After that he can connect to the device with the bluetooth, this connection will be used for confirm or not the presence of the parent in the car
 
-<img src="iSeat2.png" width="300" />
+<img src="iSeat2.jpg" width="300" />
 
 In fact if the parent were to move away from the car the bluetooth signal would drop and at this point the app will verify through the last message received from the arduino, the presence of the child and if so it would start the alarm systems and send the emergency message.
 
-<img src="iSeat3.png" width="300" />
+<img src="iSeat3.jpg" width="300" />
 
 ### :books: Technologies I used 
 - Bluetooth adapter 
